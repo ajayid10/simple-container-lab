@@ -17,6 +17,11 @@ Run an application inside a Docker container.
 Gain hands-on experience with Docker commands and workflows.
 Prepare a foundation for more advanced DevOps practices such as Docker Compose, Kubernetes, and CI/CD pipelines
 
+
+
+
+
+
 🛠️ Technologies Used
 Technology	       
 Node.js 18       
@@ -34,11 +39,24 @@ simple-container-lab/
 │── app.js
 └── README.md
 
+
+
+
+
+
+
+
 📄 Application Code
 
 app.js
 
 console.log("Hello, DevOps!");
+
+
+
+
+
+
 
 🐳 Dockerfile
 
@@ -47,6 +65,17 @@ FROM node:18-alpine
 COPY app.js .
 
 CMD ["node","app.js"]
+
+
+
+
+
+
+
+
+
+
+
 
 Build the Docker Image
 
@@ -58,6 +87,12 @@ docker run --rm simple-container-lab:1.0
 Expected output:
 
 Hello, DevOps!
+
+
+
+
+
+
 
 👨‍💻 Author
 
