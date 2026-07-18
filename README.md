@@ -37,11 +37,11 @@ Git Bash / vscode
 
 
 📁 Project Structure
-simple-container-lab/
-
-│── Dockerfile
-│── app.js
-└── README.md
+ajayid10/
+└── simple-container-lab/
+    ├── Dockerfile
+    ├── app.js
+    └── README.md
 
 -------------------------------------------------------------------
 
